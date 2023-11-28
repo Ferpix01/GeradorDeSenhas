@@ -2,7 +2,7 @@ import random  # importa a biblioteca random
 
 senha = "" #define a senha como uma string sem nada
 
-letras = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%&*?çÇ" # todas os caracteres para combinação
+letras = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%&*?çÇ" # todos os caracteres para combinação
 
 for digito in range (15): # declara que a senha terá 15 caracteres
     senhaaleatoria = random.choice(letras)
